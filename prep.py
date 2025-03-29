@@ -78,10 +78,7 @@ def get_additional_preferences():
     st.subheader("📝 Additional Preferences")
 
     initial_prompt ="""Generate a structured list of additional travel preferences, ensuring that each category is separate and does not mix different types of preferences.
-      Each category should have a clear title and contain only relevant options.
       Do not merge multiple categories into one (e.g., 'Airport transportation' and 'Travel mode' should be separate).
-      Each option should be short, simple, and easy to understand.
-      not include yes/no choices—assume 'yes' if an option is selected.
       Example format:
       Accommodation:
        -Hotel
