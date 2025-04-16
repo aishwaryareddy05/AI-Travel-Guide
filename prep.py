@@ -5,7 +5,7 @@ from groq import Groq
 from datetime import date
 
 # Load Groq API key
-os.environ["GROQ_API_KEY"] = "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" 
+os.environ["GROQ_API_KEY"] = "your api key" 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")  
 client = Groq(api_key=GROQ_API_KEY)
 
